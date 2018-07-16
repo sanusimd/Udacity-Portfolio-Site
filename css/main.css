@@ -15,10 +15,6 @@ header{
       
 }
 
-header.logo{
-   
-    
-}
 .text-header{ 
     margin-left: auto;
     text-transform: uppercase; 
@@ -61,12 +57,11 @@ header.logo{
     color: #818080
 }
 .featured-work{
-    display: flex;
-       
+    display: flex;     
 }
  figure {
-  text-align: center;
-  margin: 5px;
+    text-align: center;
+    margin: 5px;
   
 }
 
@@ -93,16 +88,13 @@ figure figcaption{
 
 
 
-/* media query  */
+/* media query >>  Mobile Google Nexus 5 */
 
 @media screen and (min-width:360px)and (max-width:640px){
    
-   
     .featured-work{
         display: flex;
-        flex-wrap: wrap;
-
-           
+        flex-wrap: wrap;     
     }
 
     .featured-text{
@@ -110,7 +102,6 @@ figure figcaption{
         font-size: 0.8rem;
         color: #818080;
         text-align: center;
-
     }
 
     figure figcaption {
@@ -125,7 +116,7 @@ figure figcaption{
         padding-bottom: 5px;
     }
 }
-
+/* media query >>  Tablet : Apple ipad  */
 @media screen and (min-width:768px)and (max-width:1024px){
     
     .featured-text{
