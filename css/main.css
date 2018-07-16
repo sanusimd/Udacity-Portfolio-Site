@@ -1,0 +1,144 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+    margin: 2em;
+}
+
+/* header section begining */
+header{
+    display: flex; 
+      
+}
+
+header.logo{
+   
+    
+}
+.text-header{ 
+    margin-left: auto;
+    text-transform: uppercase; 
+    text-align: right;
+}
+.text-header h1{ 
+    font-size: 2rem;
+    color: #2d3c49;
+    font-weight: 100;  
+}
+.text-header h2{ 
+    font-size: 1rem;
+    color: #818080;
+    font-weight: bold;
+    text-align: right; 
+ }
+
+ /* header section end */
+
+ /* horizontal line section begining */
+ hr{
+     margin: 20px 0;
+     border: 1px solid #7d97ad;
+ }
+  /* horizontal line section end*/
+
+
+/* top banner image section beginning */
+.top-banner img{
+    width: 100%;
+    height: auto;
+}
+/* top banner image section end */
+
+/* featured work section beginning */
+
+.featured-text{
+    margin:10px 2px;
+    font-size: 1.5rem;
+    color: #818080
+}
+.featured-work{
+    display: flex;
+       
+}
+ figure {
+  text-align: center;
+  margin: 5px;
+  
+}
+
+.featured-work figure img{
+    max-width: 100%;
+    height: auto;
+     
+ }
+
+figure figcaption{
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 5px 0;
+  }
+
+.featured-work a{
+    text-decoration: none;
+    color: #2d3c49; 
+    font-size: 0.8rem 
+ }
+
+
+/* featured work section end */
+
+
+
+/* media query  */
+
+@media screen and (min-width:360px)and (max-width:640px){
+   
+   
+    .featured-work{
+        display: flex;
+        flex-wrap: wrap;
+
+           
+    }
+
+    .featured-text{
+        margin:7px 2px;
+        font-size: 0.8rem;
+        color: #818080;
+        text-align: center;
+
+    }
+
+    figure figcaption {
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: 0.7rem;
+      }
+
+    figure{
+        border: 1px solid #7d97ad;
+        border-radius: 3px;
+        padding-bottom: 5px;
+    }
+}
+
+@media screen and (min-width:768px)and (max-width:1024px){
+    
+    .featured-text{
+        margin:7px 2px;
+        font-size: 0.8rem;
+        color: #818080;
+        text-align: center;
+
+    }
+
+}
+
+
+
+
+
